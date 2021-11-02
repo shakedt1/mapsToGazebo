@@ -44,6 +44,7 @@ Then we take all the doors we found, load them from the pickle file, broadcast e
 in order for that to work, install map2gazebo in the workspace https://github.com/shilohc/map2gazebo, and copy this `map2gazebo.py` file to theirs.
 than copy `refresh_map2gazebo.py` to the same folder and run it.
 after some time all the meshes will be in `map2gazebo/models/map/meshes`.
+
 *** it is important to change the meshes path in all the relevent python files ***
 
 if you want to validate that all the files created successfully, run `validateRoomMissing.py`, if there is no output, all the rooms are successfully created.
