@@ -3,8 +3,8 @@ import time
 import subprocess
 import shutil
 
-meshes_path = "/home/shakedt/catkin_ws/src/map2gazebo/models/map/meshes"
-path, dirs, files = next(os.walk("/home/shakedt/catkin_ws/src/map2gazebo/models/map/meshes"))
+meshes_path = "meshes"
+path, dirs, files = next(os.walk(meshes_path))
 dirs.sort(key=float)
 
 def find_missing(lst):
